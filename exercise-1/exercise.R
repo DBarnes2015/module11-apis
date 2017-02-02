@@ -14,7 +14,6 @@ years <- fromJSON(body)
 print(years)
 
 # What is the "country code" for the "Syrian Arab Republic"?
-response <- GET("http://data.unchr.org/api/countries/list.json")
 response <- GET("http://data.unhcr.org/api/countries/list.json")
 
 # How many persons of concern from Syria applied for residence in the USA in 2013?
